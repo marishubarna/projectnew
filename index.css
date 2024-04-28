@@ -1,0 +1,296 @@
+/*box sizing rules*/
+
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd{
+  margin: 0;
+  padding: 0;
+}/*remove list styles on ul,ol elements with a list role,which*/
+ul[role="list"],
+ol[role="list"]{
+  list-style: none;
+}
+
+html:focus-within{
+  scroll-behavior: smooth;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.button-pricing{
+  display: flex;
+  justify-content: center;
+}
+
+.btn-submit{
+  width: 200px;
+  text-align: center;
+  background-color: chocolate;
+  padding: 5px 7px;
+  color: white;
+  font-size: 20px;
+  font-family: "Oswald", sans-serif;
+  padding: 10px;
+  border: none;
+}
+
+.container {
+  background-color: #606470;
+  margin: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.container-limit{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.column1{
+border: 2px solid black;
+}
+
+.column2{
+ border: 2px solid black;
+ background-color: #F96D00;
+ padding-top: 300px;
+}
+
+.column3{
+  border: 2px solid black;
+  background-color: #F96D00;
+  padding-top: 300px;
+  }
+  
+  .column4{
+   border: 2px solid black;
+  
+  }
+
+.column-title{
+    font-size: 69px;
+    color: white;
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.column-title-second{
+  font-size: 69px;
+  color: white;
+  font-family: "Oswald", sans-serif;
+  text-align: left;
+  margin: 0;
+  padding-left: 150px;
+}
+
+.column-paragraf{
+    font-size: 19px;
+    color: white;
+    font-family: "Quicksand", sans-serif;
+    text-align: left;
+     padding-left: 149px;
+     padding-right: 100px;
+}
+
+.information-first{
+  display: grid;
+  grid-template-areas:
+    "first second"
+    "third fourth";
+}
+
+
+.items-white {
+  margin: 0;
+  align-items: center;
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.items {
+  color: white;
+}
+
+.icons {
+  display: grid;
+  grid-template-areas: " zero first second thrity ";
+  align-items: center;
+}
+
+.icons1 {
+  margin: 15px;
+  width: 300px;
+  height: 400px;
+  background-color: #393e46;
+}
+
+.icons2 {
+  margin: 15px;
+  width: 300px;
+  height: 400px;
+  background-color: #393e46;
+}
+
+.icons3 {
+  margin: 15px;
+  width: 300px;
+  height: 400px;
+  background-color: #393e46;
+}
+
+.paragraf-white {
+  margin: 0;
+  padding: 6px;
+  width: 650px;
+  font-size: 26px;
+  color: white;
+  font-family: "Quicksand", sans-serif;
+  margin: 0;
+}
+
+.paragraf-submite {
+  color: white;
+  font-size: 20px;
+  font-family: "Oswald", sans-serif;
+  padding: 10px;
+  margin: 0;
+  padding: 0;
+}
+
+.pricing{
+  display: grid;
+grid-template-areas: " prace1 prace2 prace3";
+place-items: center;
+padding: 100px 20px;
+background-color: #3A3535;
+}
+
+.prace-images{
+padding: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.prace-title{
+  text-align: center;
+  place-items: center;
+  font-size: 35px;
+  padding: 10px;
+}
+
+.prace-paragraf{
+  text-align: center;
+  place-items: center;
+  font-size: 20px;
+  padding: 5px;
+}
+
+.prace-button{
+  height: 30px;
+  width: 200px;
+  place-items: center;
+ background-color: #393e46;
+ color: white;
+ margin: 5px;
+ font-size: 20px;
+}
+
+.content-prace{
+  height: 400px;
+  width:300px;
+  background-color: #FF7315;
+  border-radius: 10px;
+}
+
+.School-title {
+  font-family: "Oswald", sans-serif;
+  font-size: 60px;
+  color: white;
+ margin: 0;
+ padding: 0;
+}
+
+.main-images {
+  background-image: url(Images/images1.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
+  padding: 40px;
+  height: 80vh;
+  margin: 0;
+}
+
+.submit {
+  margin-top: 50px;
+}
+
+.submit-gray-column{
+    height: 30px;
+  width: 200px;
+  background-color: #2C2E3E;
+  margin-left: 150px;
+}
+
+.submit-gray-column-paragraf{
+  text-align: center;
+  color: white;
+  padding: 5px;
+}
+
+section {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.texts {
+  font-family: "Quicksand", sans-serif;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+.tour {
+  background-color: #f96d00;
+  margin: 0;
+  padding-top: 65px;
+}
+
+.tour-paragraf {
+  text-align: center;
+  padding-top: 40px;
+  padding-left: 100px;
+  padding-right: 100px;
+padding-bottom: 40px;
+  font-size: 26px;
+  color: white;
+  font-family: "Quicksand", sans-serif;
+  margin: 0;
+}
+
+.tour-title {
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  font-size: 60px;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+
