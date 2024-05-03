@@ -123,6 +123,7 @@ border: 2px solid black;
 
 .items {
   color: white;
+  font-size: 20px;
 }
 
 .icons {
@@ -293,4 +294,323 @@ padding-bottom: 40px;
   padding: 0;
 }
 
+@media screen  and (min-width:360px) and (max-width:390px) {
 
+  body{
+    margin: 0;
+    padding: 0;
+  }
+  
+  .column1{
+   border: 0;
+   padding: 0;
+   margin: 0;
+  }
+  
+  .column2{
+   height: auto;
+    margin: 0;
+    padding: 50px 0px 50px 0px ;
+  }
+  
+  .column3{
+    margin: 0;
+    padding: 50px 0px 50px 0px ;
+  }
+  
+  .column-title{
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .column-title-second{
+    font-size:25px;
+    padding-left: 80px;
+  }
+  
+  .column-paragraf{
+    font-size: 16px;
+  padding:5px 50px 10px 60px;
+  }
+
+  .container{
+    padding: 0;
+  }
+  
+  .container-limit{
+    height: 50vh;
+  }
+
+  .content-prace{
+    height: 230px;
+    width: 100px;
+  }
+  
+  .information-first{
+    display: grid;
+    grid-template-areas: "first"
+                         "second"
+                          "third"
+                          "fourth";
+  }
+
+  
+.icons1{
+  height: 215px;
+  width: 90px;
+}
+
+.icons2{
+  height: 215px;
+  width: 90px;
+}
+
+.icons3{
+  height: 215px;
+  width: 90px;
+}
+  
+  .items{
+    font-size: 8px;
+  }
+  
+  .items-white{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    padding: 0;
+  }
+  
+  .images-items-white{
+    height: 40px;
+  }
+
+  .image-imagen-height{
+    height: 70px;
+    padding: 10px;
+  }
+
+  .images-column-information-1{
+    height: 76vh;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .images-column-information-2{
+    height: 75vh;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .images-prace-medal-img{
+    height: 50px;
+  }
+  
+  
+  .School-title{
+    font-size: 40px;
+  }
+
+  .pricing{
+    padding: 65px 5px 65px 5px;
+  }
+  
+  .paragraf-white{
+    font-size: 18px;
+    width: 300px;
+  }
+    
+  .prace-title{
+    font-size: 20px;
+  }
+  
+  .prace-paragraf{
+    font-size: 10px;
+    width: 90px;
+    padding-bottom: 30px;
+  }
+  
+  .prace-button{
+    width: 150px;
+  }
+  
+  
+  .tour-title{
+    font-size: 40px;
+  }
+    
+  .tour-paragraf{
+    font-size: 16px;
+    width: 295px;
+    padding: 0px 40px 0 40px;
+  }
+  
+  .texts{
+    font-size: 12px;
+  }
+
+  .submit-gray-column{
+    margin-left: 100px;
+   }
+   
+
+  }
+
+@media screen  and (min-width:390px) and (max-width:440px) {
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.column1{
+ border: 0;
+ padding: 0;
+ margin: 0;
+}
+
+.column2{
+ height: auto;
+  margin: 0;
+  padding: 50px 0px 50px 0px ;
+}
+
+.column3{
+  margin: 0;
+  padding: 50px 0px 50px 0px ;
+}
+
+.column-title{
+  font-size: 35px;
+  margin: 0;
+  padding: 0;
+}
+
+.column-title-second{
+  font-size: 35px;
+  padding-left: 100px;
+}
+
+.column-paragraf{
+  font-size: 18px;
+padding:5px 50px 10px 60px;
+}
+
+.container{
+  padding: 0;
+}
+
+.container-limit{
+  height: 50vh;
+}
+
+.content-prace{
+  height: 250px;
+  width: 120px;
+}
+
+.information-first{
+  display: grid;
+  grid-template-areas: "first"
+                       "second"
+                        "third"
+                        "fourth";
+}
+
+.icons1{
+  height: 220px;
+  width: 110px;
+}
+
+.icons2{
+  height: 220px;
+  width: 110px;
+}
+
+.icons3{
+  height: 220px;
+  width: 110px;
+}
+
+.items{
+  font-size: 8px;
+}
+
+.items-white{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+  padding: 0;
+}
+
+.image-imagen-height{
+  height: 90px;
+  padding: 10px;
+}
+
+.images-items-white{
+  height: 40px;
+}
+
+.images-column-information-1{
+  height: 90vh;
+  padding: 0;
+  margin: 0;
+}
+
+.images-column-information-2{
+  height: 85vh;
+  padding: 0;
+  margin: 0;
+}
+
+.images-prace-medal-img{
+  height: 50px;
+}
+
+.School-title{
+  font-size: 40px;
+}
+
+.pricing{
+  padding: 25px 5px 25px 5px;
+}
+
+.paragraf-white{
+  font-size: 18px;
+  width: 300px;
+}
+
+.prace-title{
+  font-size: 20px;
+}
+
+.prace-paragraf{
+  font-size: 10px;
+  width: 110px;
+}
+
+.prace-button{
+  width: 150px;
+}
+
+
+
+.tour-title{
+  font-size: 40px;
+}
+  
+.tour-paragraf{
+  font-size: 16px;
+  width: 350px;
+  padding: 0px 40px 0 40px;
+}
+
+.texts{
+  font-size: 12px;
+}
+
+.submit-gray-column{
+ margin-left: 100px;
+}
+
+}
