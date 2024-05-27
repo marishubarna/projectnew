@@ -33,14 +33,18 @@ body {
   padding: 0;
 }
 
-.blur-orange-herbet-simon{
+.herbet-simon {
+  position: relative;
+}
+
+.blur-orange-herbet-simon {
   position: absolute;
-   top: 0; 
-   bottom: 0;
-    right: 0; 
-    left: 0; 
-    content: ""; 
-    background: rgba(129, 2, 2, 0.392);
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  content: "";
+  background: rgba(129, 2, 2, 0.392);
 }
 
 .button-pricing {
@@ -74,7 +78,7 @@ body {
 }
 
 .container-limit {
-  max-width: 1440px;
+ 
   margin: 0 auto;
 }
 
