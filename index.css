@@ -28,6 +28,12 @@ html:focus-within {
   scroll-behavior: smooth;
 }
 
+.about-last-element{
+  padding: 50px;
+  place-items: center;
+  background-color: #393e46;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -37,6 +43,21 @@ body {
   position: relative;
 }
 
+.background-subscrite-div{
+  background-image: url(Images/subscrite.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 550px;
+}
+
+.button-subscribe{
+  height: 35px;
+  width: 100px;
+  background-color: #2C2E3E;
+  color: #fff;
+  font-family: "Oswald", sans-serif;
+}
+
 .blur-orange-herbet-simon {
   position: absolute;
   top: 0;
@@ -44,7 +65,7 @@ body {
   right: 0;
   left: 0;
   content: "";
-  background: rgba(129, 2, 2, 0.392);
+  background: rgba(196, 79, 0, 0.56);
 }
 
 .button-pricing {
@@ -70,6 +91,10 @@ body {
   padding-top: 90px;
 }
 
+.cosial-media-icons{
+  width: 35px;
+}
+
 .container {
   background-color: #606470;
   margin: 0;
@@ -78,14 +103,14 @@ body {
 }
 
 .container-limit {
- 
   margin: 0 auto;
 }
 
 .column1{
 border: 2px solid black;
-margin: 0;
-padding: 0;
+display:flex;
+justify-content: center;
+align-items: center;
 }
 
 .column2{
@@ -103,7 +128,9 @@ padding: 0;
   
   .column4{
    border: 2px solid black;
-  
+   display:flex;
+   justify-content: center;
+   align-items: center;
   }
 
 .column-title{
@@ -133,13 +160,13 @@ padding: 0;
      padding-right: 100px;
 }
 
+
 .information-first{
   display: grid;
   grid-template-areas:
     "first second"
     "third fourth";
 }
-
 
 .items-white {
   margin: 0;
@@ -271,6 +298,14 @@ padding: 15px;
  font-size: 20px;
 }
 
+.paragraf-subscrite-element{
+  text-align: center;
+  place-items: center;
+  color: #fff;
+  font-size: 30px;
+  font-family: "Oswald", sans-serif;
+}
+
 .content-prace{
   /*height: 400px;*/
   width:300px;
@@ -322,6 +357,31 @@ section {
   padding: 0;
 }
 
+.list-about{
+margin: 0;
+padding: 10px 0px 10px 0px;
+}
+
+li{
+  margin: 0;
+padding: 5px 0px 5px 0px;
+list-style-type: none;
+}
+
+.input-email-subscribe{
+  background-color: white;
+  border: 2px solid #000;
+  width:300px;
+  height: 30px;
+}
+
+.input-subscribe-element-div{
+  place-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 25px;
+}
+
 .images-herbet-simon{
   background-image: url(Images/images14.png);
   background-repeat: no-repeat;
@@ -346,6 +406,7 @@ section {
  padding: 250px 50px 0px 50px;
 }
 
+
 .Title-statistic{
   font-size: 60px;
   text-align: center;
@@ -353,6 +414,28 @@ section {
   color: #ffffff;
   padding: 10px;
   font-family: "Oswald", sans-serif;
+}
+
+.title-subscrite-element{
+  text-align: center;
+  place-items: CENTER;
+  color: #fff;
+  font-family: "Oswald", sans-serif;
+  padding-top: 100px;
+  font-size: 69px;
+}
+
+.title-about-element-display{
+  display: grid;
+ grid-template-columns: 700px 250px 250px 250px;
+  align-items: center;
+  place-items: center;
+  
+}
+
+.title-about-element{
+  color: #fff;
+  margin: 10px;
 }
 
 .texts {
@@ -391,6 +474,11 @@ padding-bottom: 40px;
 }
 
 @media (max-width: 440px) {
+
+  .about-last-element{
+      padding: 0;
+      margin: 0;
+  }
   .icons {
     grid-template-areas:
       "first"
@@ -489,6 +577,15 @@ height: 40px;
     text-align: center;
   }
 
+  .paragraf-subscrite-element{
+    font-size:20px;
+  }
+
+  .title-subscrite-element{
+    font-size: 59px;
+  }
+
+
   .Title-statistic{
     font-size: 40px;
     margin: 0;
@@ -506,7 +603,25 @@ height: 40px;
     padding: 0;
   }
 
-  
+  .list-about{
+    font-size: 15px;
+  }
+
+  .display-about{
+  margin: 0;
+  }
+
+.title-about-element{
+  font-size: 15px;
+}
+
+  .title-about-element-display{
+    display: grid;
+   grid-template-columns:1fr 1fr 1fr 1fr;
+    align-items: center;
+    place-items: center;
+    
+  }
 
 
   /* body {
