@@ -622,147 +622,300 @@ height: 40px;
     place-items: center;
     
   }
+}
 
-
-  /* body {
-    margin: 0;
+@media (max-width:767px) {
+   
+  .about-last-element{
     padding: 0;
-  }
+    margin: 0;
+}
+.icons {
+  grid-template-areas:
+    "first"
+    "second"
+    "thrity";
+  padding: 50px 0;
+}
 
+.items{
+  font-size: 15px;
+
+}
+
+.images-items-white {
+height: 50px;
+}
+
+.images-column{
+height: 600px;
+background-position: center;
+}
+
+.information-first {
+  grid-template-areas:
+    "first"
+    "second"
+    "third"
+    "fourth";
+}
+.tour-paragraf  {
+  padding: 20px;
+}
+
+.paragraf-white{
+  font-size: 20px;
+  width: auto;
+}
+
+.icons1,
+.icons2,
+.icons3 {
+  margin: 0 auto;
+ 
+}
+
+.images-items-white{
+width: 50px;
+}
+
+.pricing__row {
+  grid-template-areas: "prace1" "prace2" "prace3";
+  padding: 50px 0;
+}
+
+.prace1,
+.prace2,
+.prace3 {
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.column2,
+.column3 {
+  padding: 5px;
+}
+
+.column1,
+.column4 {
+height: 100%;
+}
+
+.column-paragraf {
+  padding:20px;
+  text-align: center;
+}
+
+.column-title,
+.column-title-second {
+  font-size: 40px;
+ text-align: center;
+ margin: 0;
+ padding: 0;
+}
+
+.submit-gray-column{
+  margin: 0;
+  padding: 0;
+ display: flex;
+ justify-content: center;
+}
+
+.paragraf-statistic{
+
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.paragraf-subscrite-element{
+  font-size:20px;
+}
+
+.title-subscrite-element{
+  font-size: 59px;
+}
+
+
+.Title-statistic{
+  font-size: 40px;
+  margin: 0;
+  padding: 0;
+}
+
+.statistic{
+padding: 10px;
+margin: 0;
+
+}
+
+.display-statistic{
+  margin: 0;
+  padding: 0;
+}
+
+.list-about{
+  font-size: 15px;
+}
+
+.display-about{
+margin: 0;
+}
+
+.title-about-element{
+font-size: 15px;
+}
+
+.title-about-element-display{
+  display: grid;
+ grid-template-columns:1fr 1fr 1fr 1fr;
+  align-items: center;
+  place-items: center;
+  
+}
+}
   
 
-  .column2 {
-    height: auto;
-    margin: 0;
-    padding: 50px 0px 50px 0px;
-  }
-
-  .column3 {
-    margin: 0;
-    padding: 50px 0px 50px 0px;
-  }
-
-  .column-title {
-    font-size: 25px;
-    margin: 0;
-    padding: 0;
-  } */
-
-  /* .column-title-second {
-    font-size: 25px;
-    padding-left: 80px;
-  } */
-
-  /* .column-paragraf {
-    font-size: 16px;
-    padding: 5px 50px 10px 60px;
-  } */
-
-  /* .container {
-    padding: 0;
-  } */
-
-  /* .container-limit {
-    height: 50vh;
-  } */
-  /* 
-  .content-prace {
-    height: 230px;
-    width: 100px;
-  } */
-
-  /* .icons1 {
-    height: 215px;
-    width: 90px;
-  }
-
-  .icons2 {
-    height: 215px;
-    width: 90px;
-  }
-
-  .icons3 {
-    height: 215px;
-    width: 90px;
-  } */
-  /* 
-  .items {
-    font-size: 8px;
-  }
-
-  .items-white {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    padding: 0;
-  }
-
-  .images-items-white {
-    height: 40px;
-  }
-
-  .image-imagen-height {
-    height: 70px;
-    padding: 10px;
-  }
-
-  .images-column-information-1 {
-    height: 76vh;
+@media (min-width:770px) and (max-width:1440px){
+  .about-last-element{
     padding: 0;
     margin: 0;
-  }
+}
+.icons {
+  grid-template-areas:
+    "first"
+    "second"
+    "thrity";
+  padding: 50px 0;
+}
 
-  .images-column-information-2 {
-    height: 75vh;
-    padding: 0;
-    margin: 0;
-  }
+.items{
+  font-size: 15px;
 
-  .images-prace-medal-img {
-    height: 50px;
-  }
+}
 
-  .School-title {
-    font-size: 40px;
-  }
+.images-items-white {
+height: 50px;
+}
 
-  .pricing {
-    padding: 65px 5px 65px 5px;
-  }
+.images-column{
+height: 600px;
+background-position: center;
+}
 
-  .paragraf-white {
-    font-size: 18px;
-    width: 300px;
-  }
 
-  .prace-title {
-    font-size: 20px;
-  }
+.tour-paragraf  {
+  padding: 20px;
+}
 
-  .prace-paragraf {
-    font-size: 10px;
-    width: 90px;
-    padding-bottom: 30px;
-  }
+.paragraf-white{
+  font-size: 20px;
+  width: auto;
+}
 
-  .prace-button {
-    width: 150px;
-  }
+.icons1,
+.icons2,
+.icons3 {
+  margin: 0 auto;
+ 
+}
 
-  .tour-title {
-    font-size: 40px;
-  }
+.images-items-white{
+width: 50px;
+}
 
-  .tour-paragraf {
-    font-size: 16px;
-    width: 295px;
-    padding: 0px 40px 0 40px;
-  }
+.pricing__row {
+  grid-template-areas: "prace1" "prace2" "prace3";
+  padding: 50px 0;
+}
 
-  .texts {
-    font-size: 12px;
-  }
+.prace1,
+.prace2,
+.prace3 {
+  margin: 0 auto;
+  padding: 20px;
+}
 
-  .submit-gray-column {
-    margin-left: 100px;
-  } */
+.column2,
+.column3 {
+  padding: 5px;
+}
+
+.column1,
+.column4 {
+height: 100%;
+}
+
+.column-paragraf {
+  padding:20px;
+  text-align: center;
+}
+
+.column-title,
+.column-title-second {
+  font-size: 40px;
+ text-align: center;
+ margin: 0;
+ padding: 0;
+}
+
+.submit-gray-column{
+  margin: 0;
+  padding: 0;
+ display: flex;
+ justify-content: center;
+}
+
+.paragraf-statistic{
+
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.paragraf-subscrite-element{
+  font-size:20px;
+}
+
+.title-subscrite-element{
+  font-size: 59px;
+}
+
+
+.Title-statistic{
+  font-size: 40px;
+  margin: 0;
+  padding: 0;
+}
+
+.statistic{
+padding: 10px;
+margin: 0;
+
+}
+
+.display-statistic{
+  margin: 0;
+  padding: 0;
+}
+
+.list-about{
+  font-size: 15px;
+}
+
+.display-about{
+margin: 0;
+}
+
+.title-about-element{
+font-size: 15px;
+}
+
+.title-about-element-display{
+  display: grid;
+ grid-template-columns:1fr 1fr 1fr 1fr;
+  align-items: center;
+  place-items: center;
+  
+}
 }
